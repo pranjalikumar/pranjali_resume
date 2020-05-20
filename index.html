@@ -919,9 +919,21 @@
     <!-- Typewriter JS File -->
     <script src="personal-profile/js/typewriter.js"></script>
     <!-- Google Map Api -->
+    <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          var uluru = {lat: 12.9814, lng: 77.7573};
+          // The map, centered at Uluru
+          var map = new google.maps.Map(
+              document.getElementById('google-map'), {zoom: 15, center: uluru});
+          // The marker, positioned at Uluru
+          var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+    </script>
     <script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmzZkrgqsBTPkOlIfItHKJWcSyy_9bcZc&callback=initMap">
-</script>
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmzZkrgqsBTPkOlIfItHKJWcSyy_9bcZc&callback=initMap">
+    </script>
     <script src="personal-profile/js/maps.min.js"></script>
     <!-- custom script -->
     <script src="personal-profile/js/script.js"></script>
