@@ -177,7 +177,7 @@
                         </div>
                         <div class="features-content">
                             <h4 class="color-black font-weight-500 mb-10px">Volunteering</h4>
-                            <p>As an advocate for leadership through community involvement, I actively work with 2 organisations- NSS and Hands4Scoiety. I also initiate and organise Société Générale's CSR initiatives. I have organised and mentored at Connexion - an event to integrate differentially abled people in to the workforce.</p>
+                            <p>As an advocate for leadership through community involvement, I actively work with 2 organisations- NSS and Hands4Scoiety. I also initiate and organise Société Générale's CSR initiatives. I have organised and mentored at Connexion - an event to integrate differently abled people in to the workforce.</p>
                         </div>
                     </div>
 
@@ -566,7 +566,7 @@
                         <br/>
                         <div class="price-description">
                             <p>Planned and Organised the annual CODEJAM - a multi platform competitive coding event.</p>
-                            <p>Mentored a group of differentially-abled people on coding standards and finance. Organised training sessions and mock interviews for them.</p>
+                            <p>Mentored a group of differently abled people on coding standards and finance. Organised training sessions and mock interviews for them.</p>
                             <p>Recruited and guided summer analysts in the team. Helped to create an onboarding checklist for them.</p>
                         </div>
                     </div>
@@ -680,13 +680,17 @@
                             </div>
 
                             <div class="testimonial-item">
-                                <p class="color-black testimonial-para mb-15px"> A polymath who is curious on learning new things that add a lot of value to the company. </p>
+                                <p class="color-black testimonial-para mb-15px">What is most impressive about Pranjali is not her constant professionalism or her client oriented skills.
+It's simply her appetite for challenges, small or big.
+She's the colleague you can count on, the senior developper who'll get the work done.And more importantly, she's deeply human and full of great ideas.
+She has a thirst for new knowledges, she always learns and absorbs every part of information that you can give her. She's pretty smart and understands very quickly.
+And don't mistake her for her young age.She's wise and strongly experienced.</p>
 
                                 <div class="testimonial-post">
-                                    <a href="javascript:void(0)" class="post"><img src="personal-profile/img/testimonial6.png" alt="image"></a>
+                                    <a href="javascript:void(0)" class="post"><img src="personal-profile/img/testimonial4.png" alt="image"></a>
                                     <div class="text-content">
-                                        <h5 class="color-black text-capitalize">Chaitra-Singh Bai </h5>
-                                        <p class="color-catalina-blue"> Peer Review Manager, Société Générale </p>
+                                        <h5 class="color-black text-capitalize">Eric Gourbin </h5>
+                                        <p class="color-catalina-blue"> Consulting Business Analyst/MOA, Société Générale </p>
                                         <div class="rating">
                                             <i class="ti ti-star"></i>
                                             <i class="ti ti-star"></i>
@@ -919,7 +923,21 @@
     <!-- Typewriter JS File -->
     <script src="personal-profile/js/typewriter.js"></script>
     <!-- Google Map Api -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgIfLQi8KTxTJahilcem6qHusV-V6XXjw"></script>
+    <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          var uluru = {lat: 12.9814, lng: 77.7573};
+          // The map, centered at Uluru
+          var map = new google.maps.Map(
+              document.getElementById('google-map'), {zoom: 15, center: uluru});
+          // The marker, positioned at Uluru
+          var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmzZkrgqsBTPkOlIfItHKJWcSyy_9bcZc&callback=initMap">
+    </script>
     <script src="personal-profile/js/maps.min.js"></script>
     <!-- custom script -->
     <script src="personal-profile/js/script.js"></script>

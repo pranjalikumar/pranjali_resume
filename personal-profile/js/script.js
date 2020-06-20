@@ -237,7 +237,7 @@ jQuery(function ($) {
             loop: true
         });
         personal.typeString('Critical Thinker').pauseFor(2000).deleteAll()
-            .typeString('Social Worker').pauseFor(2000).deleteAll()
+            .typeString('Doer').pauseFor(2000).deleteAll()
             .typeString('Learner').start();
     }
 
